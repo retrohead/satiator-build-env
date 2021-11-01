@@ -30,3 +30,4 @@ ENV PATH ${PATH}:/usr/local/sh-none-elf/bin
 
 RUN apt update
 RUN apt install -y cmake
+RUN apt install -y texinfo
